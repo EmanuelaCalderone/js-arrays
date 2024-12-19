@@ -19,7 +19,7 @@ const longNames = [];
 
 for (let i = 0; i < teachers.length; i++) {
   if (teachers[i].length >= 5)
-    longNames.unshift(teachers[i]);
+    longNames.push(teachers[i]);
 }
 
 console.log(longNames);
